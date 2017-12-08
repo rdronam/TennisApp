@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TopSpin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/setup.css">
+</head>
+
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="/index">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/addMatch">Add Match</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/addTournament">Add Tournament</a>
+        </li>
+        <h1>TopSpin</h1>
+        <img class="img-responsive" src="./images/tennisBall.png" alt="Tennis Ball">
+    </ul>
+    <br/>
+    <br/>
+    <br/>
+    <div class="container">
+        <div id="wrapper">
+            <h2>Tournament Setup</h2>
+            <div class="container input">
+                <form id="userinput">
+                    <h3>Section</h3>
+                    <input placeholder="" id="section" class="box" />
+                    <br />
+                    <h3>Tourney Type</h3>
+                    <input placeholder="" id="tourneyType" class="box" />
+                    <br />
+                    <h3>Number Player</h3>
+                    <input placeholder="" id="numberPlayer" class="box" />
+                    <br />
+                    <h3>Rounds</h3>
+                    <input placeholder="" id="rounds" class="box" />
+                    <br />
+                </form>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col">
+                </div>
+                <div class="col mid">
+                    <button type="submit" id="addTourney">SET & MATCH!</button>
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>

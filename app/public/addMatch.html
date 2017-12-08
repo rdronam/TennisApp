@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TopSpin</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/setup.css">
+</head>
+
+<body>
+  <div class="nav-wrap">
+    <!-- <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/viewPlayers">View Players</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/addMatch">Add Match</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/addTournament">Add Tournament</a>
+      </li>
+    </ul> -->
+    <nav class="navbar">
+      <a href="/index.html">Home /</a>
+      <a href="/viewPlayers.html"> View Player /</a>
+      <a href="/addMatch.html"> Add Match /</a>
+      <a href="/addTournament.html"> Add Tournament</a>
+    </nav>
+    <div>
+      <div class="logo-wrap">
+        <!-- added 2 divs logo text and img -->
+        <div id="logo-text">
+          <h1>TopSpin</h1>
+        </div>
+        <div id="logo-img">
+          <img class="img-responsive" src="./images/tennisBall.png" alt="Tennis Ball">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  <div class="container">
+    <div id="wrapper">
+      <h2>Match Setup</h2>
+      <div class="container input">
+        <form id="userinput">
+          <input placeholder="Section" id="section" class="box" />
+          <br />
+          <input placeholder="Player Number" id="playerNumber" class="box" />
+          <br />
+          <input placeholder="Opponent Number" id="opponentNumber" class="box" />
+          <br />
+          <input placeholder="Score" id="score" class="box" />
+          <br />
+        </form>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="col mid">
+          <button type="submit" id="addMatch">SET &amp; MATCH!</button>
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="results">
+    <table id="matches">
+    </table>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/addMatch.js"></script>
+</body>
+
+</html>

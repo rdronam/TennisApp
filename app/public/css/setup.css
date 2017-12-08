@@ -1,0 +1,226 @@
+* {
+    font-family: Helvetica;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 19.5px;
+}
+
+a{
+    font-size: 18px;
+    color: #F7F5F5;
+    text-decoration: none;
+}
+.nav-link{
+    padding-top: 13.25px;
+}
+
+.navbar {
+    width: 500px;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+    background-color: #0CDB4A;
+    box-sizing: border-box;
+    display: inline-block;
+} 
+
+accent {
+    color: #0ABC3F;
+}
+
+body {
+    background-color: #F7F5F5;
+}
+
+#addTourney, #addMatch {
+    background-color: #44C3FB;
+    text-align: center;
+    color: white;
+    border-style: none;
+    margin-top: 4%;
+    height: 35px;
+    width: 150px;
+    border-radius: 5.5px;
+    -webkit-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    z-index: -9;
+}
+
+#addTourney:focus, #addMatch:focus{
+    outline: none;
+    -webkit-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    z-index: -9;
+}
+
+#addTourney:active, #addMatch:active{
+    height: 37px;
+    width: 152px;
+    margin-top: 3.5%;
+    -webkit-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+}
+
+#addTourney:visited, #addMatch:visited{
+    -webkit-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 35px -13px rgba(0,0,0,0.75);
+}
+
+div.col{
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+h3 {
+    color: grey;
+}
+
+.input {
+    background-color: white;
+    border-color: grey;
+    position: relative;
+    max-width: 380px;
+	padding: 15px 35px 45px;
+	margin: 0 auto;
+	background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);  
+    -webkit-box-shadow: 0px 10px 35px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 35px -13px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 35px -13px rgba(0,0,0,0.75);
+}
+.box {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 100%;
+    padding-top: 8%;
+    z-index: 2;
+}
+
+input{
+    outline: none;
+}
+
+input:focus{
+    border-bottom: 1px solid #44C3FB;
+}
+
+
+
+.nav-wrap{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0CDB4A;
+    width: 100%;
+}
+
+.logo-wrap {
+    display: flex;
+    width: 100%;
+    margin-left: 556%;
+}
+
+#results{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+th {
+    text-align: left;
+    background-color: #0ABC3F;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 6px;
+    padding: 7px;
+}
+
+tr td {
+    color: grey;
+    background-color: white;
+    text-align: center;
+    border-color: #00000030;
+    border-width: 0.25px;
+    border-style: solid;
+}
+
+.edit{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    border-style: none;
+    margin-top: 4%;
+    border-radius: 5.5px;
+}
+
+.select{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    border-style: none;
+    margin-top: 4%;
+    border-radius: 5.5px;
+}
+
+.edit td{
+    border-style: none;
+    background-color: transparent !important;
+
+}
+
+.delete td{
+    border-style: none;
+    background-color: transparent !important;
+}
+
+.delete{
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-style: none;
+    margin-top: 4%;
+    border-radius: 5.5px;
+}
+
+
+}
+
+.delete td{
+    border-style: none;
+    background-color: transparent !important;
+}
+
+.delete{
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-style: none;
+    margin-top: 4%;
+    border-radius: 5.5px;
+}
